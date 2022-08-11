@@ -6,6 +6,38 @@
     <title>Calculator</title>
   </head>
   <body>
-    
+    <h1>Calculator</h1>
+<!--Make inputs for numbers-->
+    <label for="number1"><strong>First number:</strong></label>
+    <input id="number1" type="text">
+    <label for="number2"><strong>Second Number:</strong></label>
+    <input id="number2" type="text">
+
+<!--Make the radio buttons-->
+    <form id="radio-form">
+      <label>
+        <input type="radio" name="sign" value="add">
+        Add
+      </label><br>
+      <label>
+        <input type="radio" name="sign" value="subtract">
+        Subtract
+      </label><br>
+      <label>
+        <input type="radio" name="sign" value="multiply">
+        Multiply
+      </label><br>
+      <label>
+        <input type="radio" name="sign" value="divide">
+        Divide
+      </label><br> 
+
+<!--Make submit button-->
+      <button type="submit">Submit</button>
+    </form>
+
+<!--Make output for answer number-->
+    <p id="answer"></p>
   </body>
+  
 </html>
